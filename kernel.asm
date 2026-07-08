@@ -167,7 +167,7 @@ startanimation:
 daddr: equ 0x07e0
 compressed: equ 0x0000
 image: equ 0x4000
-msglen: equ 9
+msglen: equ 76
 
 times 510 - ($ - $$) db 0
 dw 0xAA55 ; Boot sector signature

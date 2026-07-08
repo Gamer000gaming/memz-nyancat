@@ -7,7 +7,7 @@ build:
 	nasm -o disk.img kernel.asm
 
 run: build
-	qemu-system-i386 -s -fda disk.img
+	qemu-system-i386 -s -fda disk.img -machine pc,pcspk-audiodev=speaker -audiodev driver=sdl,id=speaker
 
 clean:
 	rm -f disk.img Data/*.bin Data/*/*.bin

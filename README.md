@@ -1,4 +1,4 @@
-# THE FUCKING AMAZING EMEZ NYAN CAT YAAAY
+# THE FUCKING AMAZING MEMZ NYAN CAT YAAAY
 ok so to build you'll need:
 - gcc
 - python2
